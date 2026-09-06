@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 fun <T> OptionSelector(
     options: List<T>,
     selected: T?,
-    labelFor: (T) -> String,
+    labelFor: @Composable (T) -> String,
     onSelect: (T) -> Unit,
     modifier: Modifier = Modifier
 ) {
