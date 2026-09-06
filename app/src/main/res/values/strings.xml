@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ابوسطه‌شمار</string>
+
+    <string name="home_title">ابوسطه‌شمار</string>
+    <string name="team_default_1">گروه ۱</string>
+    <string name="team_default_2">گروه ۲</string>
+
+    <string name="btn_new_game">شروع بازی جدید</string>
+    <string name="btn_continue_game">ادامه بازی</string>
+    <string name="btn_history">تاریخچه بازی‌ها</string>
+    <string name="btn_settings">تنظیمات</string>
+
+    <!-- صفحه شروع بازی جدید -->
+    <string name="new_game_title">شروع بازی جدید</string>
+    <string name="team_one_name_label">نام گروه اول</string>
+    <string name="team_two_name_label">نام گروه دوم</string>
+    <string name="btn_confirm_start">شروع بازی</string>
+
+    <!-- صفحه بازی -->
+    <string name="current_round_label">دور فعلی</string>
+    <string name="last_round_label">آخرین دور ثبت‌شده</string>
+    <string name="no_round_yet">هنوز ثبت نشده</string>
+    <string name="leading_team_label">گروه پیشتاز</string>
+    <string name="tie_label">مساوی</string>
+    <string name="btn_register_round">ثبت دور جدید</string>
+    <string name="btn_undo_last_round">لغو آخرین دور</string>
+
+    <!-- صفحه ثبت دور -->
+    <string name="round_screen_title">ثبت دور جدید</string>
+    <string name="select_reader_team_label">گروه خواننده</string>
+    <string name="select_bid_label">مقدار خواندن</string>
+    <string name="select_result_label">نتیجه</string>
+    <string name="select_kot_label">کوت</string>
+    <string name="result_success">موفق</string>
+    <string name="result_fail">ناموفق</string>
+    <string name="kot_yes">بله</string>
+    <string name="kot_no">خیر</string>
+    <string name="btn_submit_round">ثبت دور</string>
+
+    <!-- Dialog تأیید ثبت دور -->
+    <string name="confirm_round_title">تأیید ثبت دور</string>
+    <string name="confirm_reader_team_label">گروه خواننده</string>
+    <string name="confirm_bid_label">مقدار خواندن</string>
+    <string name="confirm_result_label">نتیجه</string>
+    <string name="confirm_kot_label">کوت</string>
+    <string name="confirm_score_label">امتیاز</string>
+    <string name="confirm_penalty_label">جریمه</string>
+    <string name="confirm_amount_for_team">%1$d برای %2$s</string>
+    <string name="btn_confirm_register">تأیید ثبت</string>
+    <string name="btn_back">بازگشت</string>
+
+    <!-- خلاصه آخرین دور در صفحه بازی -->
+    <string name="last_round_summary">%1$s - خواند %2$d - %3$s</string>
+
+    <!-- صفحه تاریخچه دورهای بازی جاری -->
+    <string name="history_empty">هنوز دوری ثبت نشده</string>
+    <string name="history_round_number">دور %1$d</string>
+    <string name="history_team_one_before_after">%1$s (قبل ← بعد)</string>
+    <string name="history_team_two_before_after">%1$s (قبل ← بعد)</string>
+
+    <!-- Dialog تأیید لغو آخرین دور -->
+    <string name="undo_dialog_title">لغو آخرین دور</string>
+    <string name="undo_dialog_message">آیا مطمئن هستید؟ آخرین دور حذف خواهد شد.</string>
+    <string name="btn_confirm_undo">بله، حذف کن</string>
+    <string name="btn_cancel">انصراف</string>
+
+    <!-- صفحه پایان بازی -->
+    <string name="game_over_title">🏆 بازی تمام شد</string>
+    <string name="winner_label">برنده</string>
+    <string name="final_score_label">امتیاز نهایی</string>
+    <string name="btn_new_game_after_end">بازی جدید</string>
+
+    <!-- صفحه تاریخچه بازی‌های قبلی -->
+    <string name="games_history_empty">هنوز بازی تمام‌شده‌ای وجود ندارد</string>
+    <string name="games_history_matchup">%1$s × %2$s</string>
+    <string name="games_history_score">%1$d - %2$d</string>
+    <string name="game_date_label">تاریخ</string>
+
+    <!-- صفحه تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_rename_teams_title">تغییر نام گروه‌ها</string>
+    <string name="settings_no_active_game">در حال حاضر بازی فعالی وجود ندارد</string>
+    <string name="btn_save_names">ذخیره نام‌ها</string>
+    <string name="settings_new_game_title">بازی جدید</string>
+    <string name="settings_round_confirmation_title">تأیید قبل از ثبت دور</string>
+    <string name="settings_round_confirmation_description">قبل از ثبت نهایی هر دور، خلاصه آن را برای تأیید نشان بده</string>
+    <string name="settings_delete_history_title">حذف تاریخچه</string>
+    <string name="btn_delete_history">حذف تاریخچه بازی‌های تمام‌شده</string>
+    <string name="delete_history_confirm_title">حذف تاریخچه</string>
+    <string name="delete_history_confirm_message">آیا مطمئن هستید؟ تمام بازی‌های تمام‌شده و دورهای آن‌ها برای همیشه حذف می‌شوند. این کار قابل بازگشت نیست.</string>
+    <string name="settings_app_info_title">اطلاعات برنامه</string>
+    <string name="app_version_label">نسخه %1$s</string>
+</resources>
